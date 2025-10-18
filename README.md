@@ -10,14 +10,11 @@ A **command-line Python simulator** for a European roulette wheel, built as a po
 
 - [About](#about)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
 - [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
 - [License](#license)
+- [Links](#links)
+- [Installation](#installation)
 
----
 
 ## About
 
@@ -29,7 +26,6 @@ This project simulates spins of a European roulette wheel (numbers 0–36) and p
 
 It’s designed to be run from the command line using Python and `click` for easy CLI interaction. This project also integrates **continuous integration (CI)** via GitHub Actions to automatically run tests on every push.
 
----
 
 ## Features
 
@@ -39,7 +35,31 @@ It’s designed to be run from the command line using Python and `click` for eas
 - Fully tested with `pytest`
 - Automated CI using GitHub Actions
 
----
+
+## Tech Stack
+
+- Python 3.12
+
+- Click (CLI handling)
+
+- pytest (unit testing)
+
+- GitHub Actions (CI/CD)
+
+
+## Links
+
+[GitHub Actions Documentation](https://docs.github.com/en/actions)
+
+[Click Python Documentation](https://click.palletsprojects.com/)
+
+[pytest Documentation](https://docs.pytest.org/en/stable/)
+
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/thevshrinaath0/Poker-Simulation-PP-1/blob/main/LICENSE)
+.
 
 ## Installation
 
